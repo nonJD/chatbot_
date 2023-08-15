@@ -66,8 +66,6 @@ history = model.fit(padded_sequences, np.array(training_labels), epochs=epochs)
 
 
 # Saving the model
-
-
 # to save the trained model
 model.save("chat_model")
 
